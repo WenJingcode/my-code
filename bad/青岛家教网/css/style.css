@@ -1,0 +1,307 @@
+body{
+	background: url(../images/beijing.gif);
+
+}
+/* 白色背景 */
+.center{
+	position: relative;
+	width:715px ;
+	height:2500px ;
+	background-color:#fff;
+	border-radius: 20px;
+	position: absolute;
+	top:10px;
+	margin-bottom:20px;
+	margin-left: 313px; 
+}
+/* 导航 */
+nav{
+	position: relative;
+	position: absolute;
+	width: 100%;
+	height: 98px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px; 
+}
+/* logo */
+nav .logo{
+	position: absolute;
+	background:url(../images/qdjjlogo.gif)no-repeat;
+	width: 167px;
+	height: 76px;
+	top:4px;
+	left:25px; 
+}
+nav ul{
+	position: absolute;
+	width:128px;
+	height: 25px;
+	top:58px;
+	right: 10px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: rgb(255, 0, 153);
+}
+/* 表格表单 */
+table{
+	position: relative;
+	position: absolute;
+	width:651px;
+	height:2300px;
+	top:100px;
+	margin-left:30px;
+}
+/* 标题 */
+table caption{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #333333;
+}
+thead .biaotou{
+	height: 61px;
+	text-align: center;
+	margin-top:5px;
+}
+#fh{
+	text-decoration: underline;
+	color: red;
+}
+/* 所有td的字体 */
+td{
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 150%;
+	text-decoration: none;
+	color: #333333;
+}
+/* 基本资料 */
+tbody .jbzl{
+	position: relative;
+	line-height:23px;
+	height: 23px;
+	background-color: rgb(238, 238, 238);
+}
+/* 真实姓名 */
+tbody .zsxm{
+	position: relative;
+	position: absolute;
+	height: 61px;
+}
+.demo{
+	width: 138px;
+	text-align: right;
+}
+tbody input{
+	width: 241px;
+	margin-top: 1px;
+	margin-left:1px;
+	margin-bottom: 1px; 
+}
+tbody input:hover{
+	border-color: #
+}
+.blue{
+	color: #0000ff;
+	width :511px;
+}
+.hs{
+	width:511px;
+}
+/* 身份护照 */
+tbody .sf{
+	position: absolute;
+	top:175px;
+}
+/* 性别 */
+.xb{
+	position: absolute;
+	top:200px;
+}
+select{
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(169,169,169);
+	margin:1px;
+}
+/* 出生年份 */
+.csnf{
+	position: absolute;
+	top:223px;
+}
+/* 专业 */
+.zy{
+	position: absolute;
+	top:246px;
+}
+/* 学历 */
+.xl{
+	position: absolute;
+	top:289px;
+}
+/* 目前身份 */
+.mqsf{
+	position: absolute;
+	top:312px;
+}
+/* 籍贯 */
+.jg{
+	position: absolute;
+	top:335px;
+}
+/* 毕业/就业高校 */
+.by{
+	position: absolute;
+	top:358px;
+}
+#sr{
+	width: 158px;
+}
+/* 高中母校 */
+.mx{
+	position: absolute;
+	top:383px;
+}
+#highschool{
+	width: 179px;
+	margin-right: 5px;
+}
+/* 联系方式*/
+.lxfs{
+	position: absolute;
+	top:426px;
+	background-color: rgb(238, 238, 238);
+}
+#lxfs{
+	width: 648px;
+}
+/* 手机号 */
+.sjh{
+	position: absolute;
+	top:445px;
+}
+/* 目前住所 */
+.mqzs{
+	position: absolute;
+	top:488px;
+}
+/* 家庭住所 */
+.zs{
+	position: absolute;
+	top:511px;
+}
+/* 邮箱 */
+.yx{
+	position: absolute;
+	top:534px;
+}
+/* QQ */
+.qq{
+	position: absolute;
+	top:559px;
+}
+/* 详细地址 */
+.xxdz{
+	position: absolute;
+	top:584px;
+}
+/* 家教信息 */
+.jjxx{
+	position: absolute;
+	top:609px;
+	background-color: rgb(238, 238, 238);
+}
+#jjxx{
+	width: 648px;
+}
+/* 普通话 */
+.pth{
+	position: absolute;
+	top:628px;
+}
+/* 第一外语 */
+.dywy{
+	position: absolute;
+	top:651px;
+}
+/* 第二外语 */
+.dewy{
+	position: absolute;
+	top:674px;
+}
+/* 自我描述 */
+.zwms{
+	position: absolute;
+	top:697px;
+}
+/* 家教经历 */
+.jjjl{
+	position: absolute;
+	top:870px;
+}
+textarea{
+	margin:2px;
+}
+/* 可辅导科目 */
+.fdkm{ 
+	position: absolute;
+	top:1043px;
+}
+#km  input{
+	width: 23px;
+}
+/* 擅长科目 */
+tbody .sckm{
+	position: absolute;
+	top:1584px;
+}
+/* 方便授课区域 */
+.skqy{
+	position: absolute;
+	top:1627px;
+}
+#skqy input{
+	width: 23px;
+}
+/* 授课时间 */
+.sksj{
+	position: absolute;
+	top:2060px;
+}
+/* 辅助方式 */
+.fzfs{
+	position: absolute;
+	top:2085px;
+}
+#fzfs input{
+	width: 23px;
+}
+/* 薪酬要求 */
+.xcyq{
+	position: absolute;
+	top:2104px;
+}
+/*  */
+.tj{
+	position: absolute;
+	top:2259px;
+	background-color: rgb(238, 238, 238);
+
+}
+#tj{
+	width: 648px;
+	height: 66px;
+}
+button{
+	width: 92px;
+	margin-left:259px;
+}
+.footer{
+	position: absolute;
+	height: 50px;
+	bottom: 25px;
+	left:196px;
+}
