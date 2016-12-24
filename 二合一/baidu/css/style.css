@@ -1,0 +1,222 @@
+.mobile{
+	display:none;
+}
+@media (max-width: 400px){
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+/* 头部 */
+header{
+	width:100%;
+	height:105px;
+	top:0;
+	position:absolute;
+}
+/* 导航 */
+header nav{
+	position:absolute;
+	width: 36%;
+	height: 24px;
+	top: 20px;
+	right: 10px;
+	text-align: center;
+}
+header nav ul{
+	display: flex;
+	
+}
+header nav li{
+	display: inline-block;
+	color: #333;
+	font-weight: 700;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	text-decoration: underline;
+	flex-shrink:0;	
+}
+ul li:nth-child(6)~li{
+	font-weight: normal;
+}
+.more{
+	width: 55px;
+	height:21px;
+	background-color:#3385ff;
+	line-height: 24px;
+	text-align: center;
+	border:1px solid #3385ff;
+	color: white;
+    text-decoration: none; 
+    border:none;
+}
+.more:hover{
+	color: #000;
+	background-color: #fff;
+}
+/* 主体 */
+article{
+	width: 100%;
+	position: absolute;
+	top:80px;
+	bottom: 100px;
+}
+/* logo */
+.logo{
+	width: 270px;
+	height: 120px;
+}
+/* 搜索框 */
+.content input{
+	height: 26px;
+	width: 480px;
+	border:none;
+	margin-left:11px;
+	float: left;
+	margin-top: 7px;
+	flex:1 1 auto;
+}
+
+/* 按钮 */
+.content button{
+	width: 104px;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+	background: #3385ff;
+	border-bottom:1px solid #2d78f4;
+	border:none;
+	flex-shrink:0;
+}
+.content button:hover{
+	background-color: #317ef3;
+	border-bottom: 1px solid #2868c8;
+}
+/* 小照相机的框 */
+.border .kuang{
+	height: 16px;
+	width: 18px;
+	background-color: #fff;
+	float:left;
+	margin-top: 12px;
+	margin-right: 5px;
+}
+/* 小相机 */
+.kuang span{
+	background: url(../images/camera.png)no-repeat;
+	line-height: 18px;
+	height: 16px;
+	width: 18px;	
+	top:50%;
+	right: 11px;
+	display: inline-block;
+	cursor: pointer;
+	border:none;
+	}
+.kuang span:hover{
+	background-position: 0 -20px;
+ }
+/* 搜索框和按钮外加边框 */
+.content .border{
+	width:45%;
+	height:40px;
+	border:1px solid #b6b6b6;
+	border-right:none;
+	border-color: #b8b8b8 transparent #ccc #b8b8b8;
+	margin:27px auto;
+	display: block;
+	display: flex;
+}
+.content .border:hover{
+	border-color: #999 transparent #b3b3b3 #999;
+}
+/* logo和搜索框 */
+ article .content{
+ 	text-align: center;
+ }
+ /* 消除浮动 */
+ .clearfix:after{
+				content: '.';
+				display: block;
+				clear: both;
+				height: 0;
+				overflow: hidden;
+				visibility: hidden;
+			}
+/* 页脚 */
+footer{
+	position: relative;
+	position: absolute;
+	width: 100%;
+	height: 190px;
+	bottom: 0;
+	
+}
+.zhengti{
+	position: relative;
+	width: 650px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top:68px;
+}
+/* 二维码 */
+b{
+	color: #666;
+	font-weight: 700;
+}
+.zhengti span{
+	color: #666;
+}
+.demo .wenzi1{
+	position: absolute;
+	margin-left: 68px;
+	margin-top: -50px;
+}
+.demo{
+	width: 125px;
+	height: 65px;
+}
+.demo1 .wenzi2{
+	position:absolute;
+	margin-left:68px; 
+	margin-top:-50px;
+}
+.zhengti .demo1{
+	position:absolute;
+	margin-left:129px;
+	margin-top:-65px;
+	width: 125px;
+	height: 65px; 
+}
+/* /二维码 */
+.banquan{
+	width: 350px;
+	height: 85px;
+	position: absolute;
+	margin-left: 283px;
+	margin-top: -61px;
+	color: #999;
+}
+.banquan a{
+	color: #999;
+}
+.banquan .icon{
+	background:url(../images/icon.png)no-repeat;
+	width: 14px;
+	height: 17px;
+	position: absolute;
+	background-position: -600px -96px;
+	margin-left:-2px;
+	margin-top:1px;
+}
+.banquan .icon1{
+	background:url(../images/icon.png)no-repeat;
+	width: 14px;
+	height: 17px;
+	position: absolute;
+	background-position: -623px -96px;
+	margin-left: -17px;
+}
